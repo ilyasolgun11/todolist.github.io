@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.newtodos {
+  margin: 30px 0px 30px 0px;
+}
+
+.btn {
+  margin-left: 10px;
+  height: 46.5px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.inner-output-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.read-only:read-only {
+  color: rgb(0, 0, 0);
+}
+
+.new-div {
+  margin: 5px 0px 5px 0px;
+  display: flex;
+}
+
+.delete-todo {
+  width: 65px;
+}
+
+.edit-btn {
+  min-width: 60px;
+}
